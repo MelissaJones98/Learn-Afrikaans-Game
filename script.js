@@ -1,23 +1,53 @@
 let questions = [
     {
-        title: 'Gato',
-        answers: ['Dog','Cat', 'Bird', 'Fish'],
+        title: 'Rooi',
+        answers: ["Yellow", "Red", "Black", "Green"],
         correctAnswer: 1
     },
     {
-        title: 'Ave',
-        answers: ['Mouse', 'Hamster', 'Lizard', 'Bird'],
+        title: 'Blou',
+        answers: ["White", "Orange", "Pink", "Blue"],
         correctAnswer: 3
     },
     {
-        title: 'Rata',
-        answers: ['Cat', 'Fish', 'Rat', 'Shark'],
+        title: 'Groen',
+        answers: ["Green", "Purple", "Grey", "Red"],
+        correctAnswer: 0
+    },
+    {
+        title: 'Geel',
+        answers: ["Pink", "Black", "Yellow", "Orange"],
         correctAnswer: 2
     },
     {
-        title: 'Mosca',
-        answers: ['Fly', 'Puma', 'Fish', 'Dog'],
+        title: 'Swart',
+        answers: ["White", "Black", "Grey", "Blue"],
+        correctAnswer: 1
+    },
+    {
+        title: 'Wit',
+        answers: ["Red", "Purple", "Green", "White"],
+        correctAnswer: 3
+    },
+    {
+        title: 'Oranje',
+        answers: ["Orange", "Pink", "White", "Blue"],
         correctAnswer: 0
+    },
+    {
+        title: 'Pienk',
+        answers: ["Purple", "Yellow", "Pink", "Grey"],
+        correctAnswer: 2
+    },
+    {
+        title: 'Pers',
+        answers: ["Purple", "Black", "Pink", "Green"],
+        correctAnswer: 0
+    },
+    {
+        title: 'Grys',
+        answers: ["Black", "Green", "Red", "Grey"],
+        correctAnswer: 3
     }
 ];
 
