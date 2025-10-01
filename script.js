@@ -376,6 +376,266 @@ let questionSets = [
                 title: "Flamingo",
                 answers: ["Horse", "Insect", "Flamingo", "Goat"],
                 correctAnswer: 2
+            },
+            {
+                title: "Gans",
+                answers: ["Bee", "Goose", "Gull", "Monkey"],
+                correctAnswer: 1
+            },
+            {
+                title: "Meeu",
+                answers: ["Monkey", "Llama", "Gull", "Bison"],
+                correctAnswer: 2
+            },
+            {
+                title: "Bison",
+                answers: ["Bison", "Heron", "Cow", "Dog"],
+                correctAnswer: 0
+            },
+            {
+                title: "Reider",
+                answers: ["Dog", "Heron", "Pelican", "Fish"],
+                correctAnswer: 1
+            },
+            {
+                title: "Volstruis",
+                answers: ["Sparrow", "Lamb", "Ostrich", "Coyote"],
+                correctAnswer: 2
+            },
+            {
+                title: "Pou",
+                answers: ["Bee", "Insect", "Sheep", "Peacock"],
+                correctAnswer: 3
+            },
+            {
+                title: "Bye",
+                answers: ["Bee", "Insect", "Sheep", "Peacock"],
+                correctAnswer: 0
+            },
+            {
+                title: "Aap",
+                answers: ["Swan", "Monkey", "Ostrich", "Bull"],
+                correctAnswer: 1
+            },
+            {
+                title: "Pelikaan",
+                answers: ["Bull", "Pelican", "Toucan", "Peacock"],
+                correctAnswer: 1
+            },
+            {
+                title: "Pikkewyn",
+                answers: ["Pelican", "Toucan", "Peacock", "Penguin"],
+                correctAnswer: 3
+            },
+            {
+                title: "Mossie",
+                answers: ["Sparrow", "Lion", "Beaver", "Stork"],
+                correctAnswer: 0
+            },
+            {
+                title: "Koei",
+                answers: ["Bull", "Cow", "Goat", "Animals"],
+                correctAnswer: 1
+            },
+            {
+                title: "Ooievaar",
+                answers: ["Ostrich", "Kangaroo", "Stork", "Wolf"],
+                correctAnswer: 2
+            },
+            {
+                title: "Tier",
+                answers: ["Tiger", "Dolphin", "Rabbit", "Gorilla"],
+                correctAnswer: 0
+            },
+            {
+                title: "Swaan",
+                answers: ["Gorilla", "Dolphin", "Rabbit", "Swan"],
+                correctAnswer: 3
+            },
+            {
+                title: "Hond",
+                answers: ["Cat", "Dog", "Rabbit", "Horse"],
+                correctAnswer: 1
+            },
+            {
+                title: "Toekan",
+                answers: ["Pelican", "Toucan", "Peacock", "Penguin"],
+                correctAnswer: 1
+            },
+            {
+                title: "Insek",
+                answers: ["Bee", "Insect", "Sheep", "Peacock"],
+                correctAnswer: 1
+            },
+            {
+                title: "Diere",
+                answers: ["Bear", "Duck", "Eagle", "Animals"],
+                correctAnswer: 3
+            },
+            {
+                title: "Bok",
+                answers: ["Gorilla", "Giraffe", "Goat", "Tiger"],
+                correctAnswer: 2
+            },
+            {
+                title: "Perd",
+                answers: ["Horse", "Donkey", "Whale", "Eel"],
+                correctAnswer: 0
+            },
+            {
+                title: "Lam",
+                answers: ["Lamb", "Llama", "Zebra", "Giraffe"],
+                correctAnswer: 0
+            },
+            {
+                title: "Llama",
+                answers: ["Lamb", "Llama", "Zebra", "Giraffe"],
+                correctAnswer: 1 
+            },
+            {
+                title: "Skape",
+                answers: ["Shark", "Shrimp", "Sheep", "Stork"],
+                correctAnswer: 2
+            },
+            {
+                title: "Beer",
+                answers: ["Bear", "Beaver", "Bull", "Bison"],
+                correctAnswer: 0
+            },
+            {
+                title: "Bewer",
+                answers: ["Bear", "Beaver", "Bull", "Bison"],
+                correctAnswer: 1
+            },
+            {
+                title: "Bul",
+                answers: ["Bear", "Beaver", "Bull", "Bison"],
+                correctAnswer: 2
+            },
+            {
+                title: "Coyote",
+                answers: ["Fox", "Oyster", "Mouse", "Coyote"],
+                correctAnswer: 3
+            },
+            {
+                title: "Dolfyn",
+                answers: ["Octopus", "Dolphin", "Turtle", "Whale"],
+                correctAnswer: 1
+            },
+            {
+                title: "Jakkals",
+                answers: ["Shark", "Wolf", "Fox", "Coyote"],
+                correctAnswer: 3
+            },
+            {
+                title: "Kameelperd",
+                answers: ["Giraffe", "Camel", "Zebra","Kangaroo"],
+                correctAnswer: 0
+            },
+            {
+                title: "Gorilla",
+                answers: ["Gorilla", "Dolphin", "Rabbit", "Swan"],
+                correctAnswer: 0
+            },
+            {
+                title: "Kangaroe",
+                answers: ["Giraffe", "Camel", "Zebra","Kangaroo"],
+                correctAnswer: 3
+            },
+            {
+                title: "Haas",
+                answers: ["Horse", "Hamster", "Rabbit", "Jellyfish"],
+                correctAnswer: 2
+            },
+            {
+                title: "Walvis",
+                answers: ["Jellyfish", "Whale", "Shark", "Turtle"],
+                correctAnswer: 1
+            },
+            {
+                title: "Wolf",
+                answers: ["Wolf", "Coyote", "Dog", "Kitten"],
+                correctAnswer: 0
+            },
+            {
+                title: "Sebra",
+                answers: ["Giraffe", "Lizard", "Mouse", "Zebra"],
+                correctAnswer: 3
+            },
+            {
+                title: "Krap",
+                answers: ["Lizard", "Crab", "Oyster", "Shrimp"],
+                correctAnswer: 1
+            },
+            {
+                title: "Paling",
+                answers: ["Crab", "Eel", "Puppy", "Fish"],
+                correctAnswer: 1
+            },
+            {
+                title: "Vis",
+                answers: ["Crab", "Eel", "Puppy", "Fish"],
+                correctAnswer: 3
+            },
+            {
+                title: "Jellievis",
+                answers: ["Fish", "Octopus", "Jellyfish", "Eel"],
+                correctAnswer: 2
+            },
+            {
+                title: "Seekat",
+                answers: ["Fish", "Octopus", "Jellyfish", "Eel"],
+                correctAnswer: 1
+            },
+            {
+                title: "Oester",
+                answers: ["Lizard", "Crab", "Oyster", "Shrimp"],
+                correctAnswer: 2
+            },
+            {
+                title: "Haai",
+                answers: ["Jellyfish", "Whale", "Shark", "Turtle"],
+                correctAnswer: 2
+            },
+            {
+                title: "Garnale",
+                answers: ["Lizard", "Crab", "Oyster", "Shrimp"],
+                correctAnswer: 3
+            },
+            {
+                title: "Tuna",
+                answers: ["Tuna", "Fish", "Lizard", "Mouse"],
+                correctAnswer: 0
+            },
+            {
+                title: "Skilpad",
+                answers: ["Jellyfish", "Whale", "Shark", "Turtle"],
+                correctAnswer: 3
+            },
+            {
+                title: "Hamster",
+                answers: ["Hamster", "Kitten", "Puppy", "Mouse"],
+                correctAnswer: 0
+            },
+            {
+                title: "Katjie",
+                answers: ["Hamster", "Kitten", "Puppy", "Mouse"],
+                correctAnswer: 1
+            },
+            {
+                title: "Akkedis",
+                answers: ["Eagle", "Penguin", "Lizard", "Zebra"],
+                correctAnswer: 2
+            },
+            {
+                title: "Muis",
+                answers: ["Hamster", "Kitten", "Puppy", "Mouse"],
+                correctAnswer: 3
+            },
+            {
+                title: "Hondjie",
+                answers: ["Hamster", "Kitten", "Puppy", "Mouse"],
+                correctAnswer: 2
             }
         ]
     },
@@ -538,7 +798,7 @@ let app = {
     },
     startQuiz: function() {
         let selection = window.location.pathname.replaceAll("/","").replaceAll(".html","");
-        let selectedQuestions = questionSets.filter((x) => {return x.questionSetTitle.toLowerCase() == selection.toLowerCase().replaceAll("_"," ")})[0].questions;
+        let selectedQuestions = questionSets.filter((x) => {return x.questionSetTitle.toLowerCase() == selection.toLowerCase().replaceAll("_"," ")})[0].questions.sort ( ( ) => Math . random ( ) - 0.5 );
         this.currentPosition = 0;
         this.score = 0;
         let ans = document.querySelectorAll(".answer");
