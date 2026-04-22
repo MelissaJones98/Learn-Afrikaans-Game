@@ -1,3 +1,4 @@
+// turn questions sets into Json files - one file per question set
 let questionSets = [
      {
         questionSetTitle: "Greetings",
@@ -636,6 +637,11 @@ let questionSets = [
                 title: "Hondjie",
                 answers: ["Hamster", "Kitten", "Puppy", "Mouse"],
                 correctAnswer: 2
+            }
+            {
+                title: "Plystert",
+                answers: ["Stingray", "Squid", "Shark", "Fish"],
+                correctAnswer: 0
             }
         ]
     },
