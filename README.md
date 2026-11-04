@@ -12,15 +12,15 @@ A browser-based multiple-choice quiz for learning Afrikaans vocabulary. Pick a t
 
 ## Question sets
 
-| Set | Questions |
-| --- | ---: |
-| Greetings | 5 |
-| Colours | 10 |
-| Days of the Week | 7 |
-| Months | 12 |
-| Family | 24 |
-| Animals | 65 |
-| Numbers | 28 |
+| Set              | Questions |
+| ---------------- | --------: |
+| Greetings        |         5 |
+| Colours          |        10 |
+| Days of the Week |         7 |
+| Months           |        12 |
+| Family           |        24 |
+| Animals          |        65 |
+| Numbers          |        28 |
 
 ## Running locally
 
