@@ -294,8 +294,8 @@ let questionSets = [
                 correctAnswer: 1
             },
             {
-                title: "Skoon Dogter",
-                answers: ["Son in Law", "Father in Law","Daughter in Law", "Son in Law"],
+                title: "Skoondogter",
+                answers: ["Son in Law", "Father in Law", "Daughter in Law", "Mother in Law"],
                 correctAnswer: 2
             },
             {
@@ -526,7 +526,7 @@ let questionSets = [
             {
                 title: "Jakkals",
                 answers: ["Shark", "Wolf", "Fox", "Coyote"],
-                correctAnswer: 3
+                correctAnswer: 2
             },
             {
                 title: "Kameelperd",
@@ -637,7 +637,7 @@ let questionSets = [
                 title: "Hondjie",
                 answers: ["Hamster", "Kitten", "Puppy", "Mouse"],
                 correctAnswer: 2
-            }
+            },
             {
                 title: "Plystert",
                 answers: ["Stingray", "Squid", "Shark", "Fish"],
@@ -754,7 +754,7 @@ let questionSets = [
                 correctAnswer: 1
             },
             {
-                title: "Verrtig",
+                title: "Veertig",
                 answers: [40, 50, 60, 70],
                 correctAnswer: 0
             },
