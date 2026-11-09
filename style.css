@@ -1,36 +1,112 @@
 body {
     background-color: #1E90FF;
+    background-image: linear-gradient(135deg, #3AA0FF 0%, #1E90FF 45%, #0B5ED7 100%);
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 16px;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+/* Frosted-glass panel around the menu / quiz, centred in the space below the Home button */
 #wrapper {
-    width: 100;
-    display:flex;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+    padding: 28px 24px;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    background: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 24px;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+/* Menu page heading — sits above the panel; the pair is centred together */
+.site-header {
+    margin: auto auto 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.site-header + #wrapper {
+    margin-top: 0;
+}
+.site-title {
+    margin: 0;
+    font-size: 44px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+.site-title::after {
+    content: "";
+    display: block;
+    width: 64px;
+    height: 5px;
+    margin: 12px auto 0;
+    border-radius: 999px;
+    background: #FFB300;
+}
+.site-subtitle {
+    margin: 12px 0 0;
+    font-size: 17px;
+    opacity: 0.9;
 }
 #wrapper div, #wrapper ul {
-    width: 50%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 320px;
 }
 ul {
     padding: 0px;
 }
 #title {
-    font-size: 20px;
-    font-weight: bold;
-    background: white;
-    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 0 20px;
+    padding: 20px 24px;
+    background: #FFFFFF;
+    color: #12305A;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+    border-radius: 16px;
+    border-top: 6px solid #FFB300;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+/* Shared button look for answers, question sets and the Home button */
+.answer, .questionSets, .HomeButton {
+    background: #FFFFFF;
+    color: #1A3D6D;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    font-weight: 600;
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.15s ease, box-shadow 0.15s ease, background-color 0.15s ease;
 }
 .answer, .questionSets {
     list-style-type: none;
-    margin-bottom: 4px;
-    padding: 10px;
-    background: #E6E6E6;
+    margin-bottom: 10px;
+    padding: 12px 16px;
 }
 .answer:hover, .questionSets:hover, .HomeButton:hover {
-    cursor: pointer;
-    opacity: 0.8;
+    background: #F0F6FF;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+.answer:active, .questionSets:active, .HomeButton:active {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.HomeButton:focus-visible {
+    outline: 3px solid #FFD54F;
+    outline-offset: 2px;
 }
 #result {
     font-weight: bold;
@@ -39,11 +115,10 @@ ul {
     color: white;
 }
 .HomeButton {
-    text-align: left;
-    margin-bottom: 2px;
-    padding: 5px;
-    background: #E6E6E6;
-    border: none;
-    font-weight: bold;
-    font-size: 20px;
+    align-self: flex-start;
+    margin: 0;
+    padding: 8px 20px;
+    border-radius: 999px;
+    font-family: inherit;
+    font-size: 18px;
 }
